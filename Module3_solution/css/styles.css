@@ -18,15 +18,18 @@ background-color: #515a69;
 text-align: center;
 }
 
+#nav-list li a .nav-link{
+background-color: #515a69;
+text-align: center;
+}
+
 .navbar {
-  z-index: 100;
   background-color: #d3dceb;
   border-radius: 0;
   border: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 70px;
 }
 
 #nav-list a{
@@ -35,6 +38,11 @@ text-align: center;
 padding-top: 10px;
 padding-right: 10px;
 padding-left: 0px;
+color: #D3DCEB;
+}
+
+#nav-list a:hover{
+background-color: #808b9d;
 }
 
 #collapsable-nav {
@@ -44,8 +52,6 @@ padding-left: 0px;
 li{
  background-color: #515a69;
  border: 2px black;
- padding-bottom: 10px;
- padding-top: 10px;
  }
 
 .navbar-brand h1 { /* Restaurant name */
@@ -55,12 +61,16 @@ li{
   margin-top: -5px;
 }
 
+.nav-item {
+	border: 1px solid #d3dceb;
+}
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }                            
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #d3dceb;
 }
 
 .navbar-header button.navbar-toggle {
@@ -79,12 +89,14 @@ li{
 
 div .container {
  width: 90%;
+ padding-left: 15px;
+ padding-right: 15px;
 }
 
 .row {
  color: #d3dceb;
- margin-left: 0;
- margin-right: 0;
+ margin-left: 0px;
+ margin-right: 0px;
 }
 
 p {
