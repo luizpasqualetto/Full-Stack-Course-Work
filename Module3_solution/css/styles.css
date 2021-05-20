@@ -7,15 +7,6 @@ body {
 
 
 /* Header */
-#header-nav {
-  background-color: #d3dceb;
-  border-radius: 0;
-  border: 0;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  height: 70px;
-}
 
 #header-nav .container { /* Fixes margins to match professors examples */
   margin-left: 0px;
@@ -25,11 +16,17 @@ body {
 #nav-list {
 background-color: #515a69;
 text-align: center;
-position: relative;
 }
 
 .navbar {
-	z-index: 100;
+  z-index: 100;
+  background-color: #d3dceb;
+  border-radius: 0;
+  border: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 70px;
 }
 
 #nav-list a{
