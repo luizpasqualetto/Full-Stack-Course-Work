@@ -1,0 +1,108 @@
+body {
+	color: #515a69;
+	background-color: #b0b7c2;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header */
+#header-nav {
+  background-color: #d3dceb;
+  border-radius: 0;
+  border: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 70px;
+}
+
+#header-nav .container { /* Fixes margins to match professors examples */
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#nav-list {
+background-color: #515a69;
+text-align: center;
+position: relative;
+}
+
+.navbar {
+	z-index: 100;
+}
+
+#nav-list a{
+background-color: #515a69;
+text-align: center;
+padding-top: 10px;
+padding-right: 10px;
+padding-left: 0px;
+}
+
+#collapsable-nav {
+	border: 0;
+}
+
+li{
+ background-color: #515a69;
+ border: 2px black;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ }
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #515a69;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}                            
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+}
+
+/* Main Content */
+
+#maincontent div{
+ background-color: #7e588d;
+ border: 2px solid black;
+ height: 1000px;
+ overflow: auto;
+}
+
+div .container {
+ width: 90%;
+}
+
+.row {
+ color: #d3dceb;
+ margin-left: 0;
+ margin-right: 0;
+}
+
+p {
+ padding-left: 10px;
+ padding-right: 10px;
+ overflow: auto;
+}
+
+#our-menu a, #our-menu a-hover{
+	text-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+#sushi h3, #beef h3, #chicken h3{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
